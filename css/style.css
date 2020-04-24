@@ -382,6 +382,7 @@ a{
     opacity: 0;
     transform: translateY(4rem);
     animation: transform-none 0.3s 0.85s cubic-bezier(0.6, 0.01, 0.16, 1) forwards;
+  
   }
 
   .ediya-menu__item:nth-child(1){animation-duration: 0.8s;}
