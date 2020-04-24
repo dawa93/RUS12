@@ -352,10 +352,6 @@ a{
       transform: none;
     }
   }
-@keyframes .ediya-menu__item:nth-child{
-  animation-duration: 0.8s;
-}
-
 .app-header, 
 .brand, 
 .button.button.is-open-menu,
@@ -378,15 +374,21 @@ a{
   .button.is-open-menu{
     transform: translateX(4rem);
   }
-  .ediya-menu{
-    transform: translateX(4rem);
+  .ediya-menu__item{
+    transform: translateY(4rem);
   }
   /* 시간차 애니메이션 */
   
-  .ediya-menu__item:nth-child(1){animation-duration: 0.8s;}
+.ediya-menu__item:nth-child(1){animation-duration: 0.8s;}
+.ediya-menu__item:nth-child(2){animation-duration: 1.2s;}
+.ediya-menu__item:nth-child(3){animation-duration: 1.6s;}
+.ediya-menu__item:nth-child(4){animation-duration: 2s;}
+
+
+  /* .ediya-menu__item:nth-child(1){animation-duration: 0.8s;}
   .ediya-menu__item:nth-child(2){animation-duration: 1.2s;}
   .ediya-menu__item:nth-child(3){animation-duration: 1.6s;}
-  .ediya-menu__item:nth-child(4){animation-duration: 2.0s;}
+  .ediya-menu__item:nth-child(4){animation-duration: 2.0s;} */
 
   
  
