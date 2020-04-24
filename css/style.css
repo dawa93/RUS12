@@ -356,11 +356,15 @@ a{
   animation-duration: 0.8s;
 }
 
-.app-header, .brand, .button.button.is-open-menu{
+.app-header, 
+.brand, 
+.button.button.is-open-menu,
+.ediya-menu__item {
   opacity: 0;
   animation: transform-none 0.35s 0.4s ease-out forwards;
   }
-  .brand, .button.is-open-menu{
+  .brand, 
+  .button.is-open-menu{
     animation-delay: 0.6s;
   }
   
@@ -378,13 +382,7 @@ a{
     transform: translateX(4rem);
   }
   /* 시간차 애니메이션 */
-  .ediya-menu__item {
-    opacity: 0;
-    transform: translateY(4rem);
-    animation: transform-none 0.3s 0.85s cubic-bezier(0.6, 0.01, 0.16, 1) forwards;
   
-  }
-
   .ediya-menu__item:nth-child(1){animation-duration: 0.8s;}
   .ediya-menu__item:nth-child(2){animation-duration: 1.2s;}
   .ediya-menu__item:nth-child(3){animation-duration: 1.6s;}
